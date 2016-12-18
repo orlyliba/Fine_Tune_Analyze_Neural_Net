@@ -11,9 +11,8 @@ Recommended reading:
 Code and weights for AlexNet in TensorFlow are from [here]( http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/) (Thank you!)
 
 Recommended steps:
-0. Install [python](https://www.python.org/downloads/), [Tensorflow](https://www.tensorflow.org/get_started/os_setup) and [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/install.html). 
-  I've found that no matter what I did, Tensorflow did not work on Windows (as of Oct. 2016), therefore I worked with Linux.
-  I also recommend looking at other libraries for deep learning (such as Caffe, Torch, Theano...), because Tensorflow is not the only option and it's not perfect for every use. That said, TensorFlow is great for beginners who know python.
+
+0. Install [python](https://www.python.org/downloads/), [Tensorflow](https://www.tensorflow.org/get_started/os_setup) and [Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/install.html). I've found that no matter what I did, Tensorflow did not work on Windows (as of Oct. 2016), therefore I worked with Linux. I also recommend looking at other libraries for deep learning (such as Caffe, Torch, Theano...), because Tensorflow is not the only option and it's not perfect for every use. That said, TensorFlow is great for beginners who know python.
 1. Run AlexNet pre-trained on ImageNet, just to test out the classification.
 2. Visualize the behaviour of the network: look at the weights and activations of the different layers
 3. Define the next task you would like the network to work on. As an example, I deined a task for classifying between dogs, cats and flowers. This code will download images based on a Google search. Then you'll need to crop or resize them to match the size expected by AlexNet (227x227x3) using this code. This example distinguishes between three classes, and you can change the number of classes in your task by updating the fc8 layer in the network.
