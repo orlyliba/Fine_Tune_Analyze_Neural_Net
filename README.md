@@ -15,7 +15,7 @@ Code and weights for AlexNet in TensorFlow are from [here]( http://www.cs.toront
 5. Save your network ([link](https://github.com/orlyliba/Fine_Tune_Analyze_Neural_Net/blob/master/AlexNet_finetune_save_net.ipynb)).
 6. Find the images with the highest probability in each class ([link](https://github.com/orlyliba/Fine_Tune_Analyze_Neural_Net/blob/master/Find_highest_prob_image.ipynb)).
 7. Visualize your network's behavior by plotting your images on a scatter plot using [t-SNE](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding) ([link](https://github.com/orlyliba/Fine_Tune_Analyze_Neural_Net/blob/master/AlexNet_TSNE.ipynb)).
-8. Occlusion analysis is a nice way of visializing which regions in your image are significant for your your network's decision ([link](https://github.com/orlyliba/Fine_Tune_Analyze_Neural_Net/blob/master/Occlusion_analysis.ipynb)).
+8. Occlusion analysis is a nice way of visializing which regions in your image are significant for your network's decision ([link](https://github.com/orlyliba/Fine_Tune_Analyze_Neural_Net/blob/master/Occlusion_analysis.ipynb)).
 
 
 ### Occlusion analysis 
