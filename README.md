@@ -1,5 +1,5 @@
 # Fine tune and analyze deep-learning neural networks
-Gain some experience in deep-learning by fine-tuning and analyzing AlexNet with TensorFlow.
+Fine-tune and analyze a deep neural network for visual recognition (AlexNet) with TensorFlow.
 
 This is a beginner-level project that starts with a pre-trained neural network and then fine-tunes it for a task of your choosing. There is also code for anlyzing the network, such as: visualizing the weights and layer activations, occulusion analysis, t-SNE and image with highest probability in class.
 
