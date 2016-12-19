@@ -3,11 +3,6 @@ Fine-tune and analyze a deep neural network for visual recognition (AlexNet) wit
 
 This is a beginner-level project that starts with a pre-trained neural network and then fine-tunes it for a task of your choosing. There is also code for anlyzing the network, such as: visualizing the weights and layer activations, occulusion analysis, t-SNE and image with highest probability in class.
 
-Recommended reading:
-- Deep-learning Stanford class, [CS231n](http://cs231n.github.io/)
-- [AlexNet paper] (https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
-- ["Visualizing and Understanding Convolutional Networks" paper] (https://arxiv.org/pdf/1311.2901v3.pdf)
-
 Code and weights for AlexNet in TensorFlow are from [here]( http://www.cs.toronto.edu/~guerzhoy/tf_alexnet/) (Thank you!)
 
 ### Recommended steps: 
@@ -24,12 +19,15 @@ Code and weights for AlexNet in TensorFlow are from [here]( http://www.cs.toront
 
 
 ### Occlusion analysis 
-Probability map for correctly classifying the cat, as function of the location of an occluding square in the image. The probability for classifying the cat correctly, reduces when the cat's face is occluded.
+Probability map for correctly classifying the cat, as function of the location of an occluding square in the image. The probability for classifying the cat correctly reduces when the cat's face is occluded.
 ![](https://cloud.githubusercontent.com/assets/19598320/21302263/50be3440-c56a-11e6-9302-aa76cb52eeec.png)
 
 ### t-SNE visualization 
 A 2-dimensional representation of the output of the network, showing the separation between images of different classes (cats, dogs and flowers).
 ![](https://cloud.githubusercontent.com/assets/19598320/21300571/f575930e-c559-11e6-9324-50ca4d98c09d.png)
 
-
+### Recommended reading:
+- Deep-learning Stanford class, [CS231n](http://cs231n.github.io/)
+- [AlexNet paper] (https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+- ["Visualizing and Understanding Convolutional Networks" paper] (https://arxiv.org/pdf/1311.2901v3.pdf)
 
